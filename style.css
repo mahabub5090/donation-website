@@ -28,9 +28,10 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 50vh;
+    height: 100vh;
     padding-bottom: 90px;
     margin-bottom: 50px;
+
 
 }
 
@@ -39,6 +40,8 @@ body {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    padding-top: 30vh;
+
 }
 
 .btn {
