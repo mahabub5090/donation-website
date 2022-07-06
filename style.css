@@ -13,11 +13,27 @@ body {
 body {
     margin: 0;
     padding: 0;
+
+}
+
+p {
+    font-size: 23px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 #headline {
-    font-size: 26px;
-    padding-top: 120px;
+    font-size: 45px;
 
 }
 
@@ -46,20 +62,29 @@ body {
 }
 
 .btn {
-    padding: 10px;
-    border-radius: 9px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
     text-decoration: none;
     background-color: #FF5959;
     border: 3px solid #FF5959;
+    font-weight: bold;
 }
 
 .donate-today {
+    padding-top: 20px;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .bolder-text {
     font-family: 'Roboto';
+}
+
+.p-center {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .money-box {
@@ -99,18 +124,21 @@ body {
 #hr-tag {
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 20px;
 }
 
 #card {
     display: flex;
     justify-content: space-around;
     background-size: 100%;
+    padding-bottom: 1%;
+    width: 100%;
 }
 
 #card1 {
     margin-left: 10%;
     width: 80%;
-    height: 50vh;
+    height: 60vh;
     padding-top: 50px;
     padding-left: 15px;
     padding-right: 10px;
@@ -118,13 +146,14 @@ body {
     border-radius: 5px;
     background: #78d8e3;
     background-size: cover;
+
 }
 
 #card2 {
     margin-left: 5%;
     margin-right: 5%;
     width: 80%;
-    height: 50vh;
+    height: 60vh;
     padding-top: 50px;
     padding-left: 15px;
     padding-right: 10px;
@@ -137,7 +166,7 @@ body {
 #card3 {
     margin-right: 10%;
     width: 80%;
-    height: 50vh;
+    height: 60vh;
     padding-top: 50px;
     padding-left: 15px;
     padding-right: 10px;
@@ -174,6 +203,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 /*background-color: #FFF4D6*/
@@ -182,7 +212,7 @@ body {
 #subs-btn {
     border: 1px #FFFFFF;
     border-radius: 0%;
-    padding: 5px 20px 5px 20px;
+    padding: 10px 30px 10px 30px;
     background-color: #FF5959;
     background-size: cover;
 }
@@ -191,7 +221,7 @@ body {
     background-color: #d9d9d9;
     border: 1px #FFFFFF;
     border-radius: 0%;
-    padding: 5px 0 5px 0;
+    padding: 10px 30px;
 }
 
 #box-in {
