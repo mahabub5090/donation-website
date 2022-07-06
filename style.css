@@ -18,6 +18,7 @@ body {
 #headline {
     font-size: 26px;
     padding-top: 120px;
+
 }
 
 .upper {
@@ -25,12 +26,12 @@ body {
     color: white;
     background-image: url(donate-today-main/images/donation13.jpg);
     background-repeat: no-repeat;
-    padding-bottom: 90px;
     background-position: center center;
     background-size: cover;
-    height: 40vh;
+    height: 50vh;
+    padding-bottom: 90px;
     margin-bottom: 50px;
-
+    text-justify: auto;
 }
 
 .btn {
@@ -104,6 +105,7 @@ body {
     padding-bottom: 1%;
     border-radius: 5px;
     background: #78d8e3;
+    background-size: cover;
 }
 
 #card2 {
@@ -117,6 +119,7 @@ body {
     padding-bottom: 1%;
     border-radius: 5px;
     background: #fe9292;
+    background-size: cover;
 }
 
 #card3 {
@@ -129,6 +132,7 @@ body {
     padding-bottom: 1%;
     border-radius: 5px;
     background: #FFF4D6;
+    background-size: cover;
 }
 
 
@@ -168,6 +172,7 @@ body {
     border-radius: 0%;
     padding: 5px 20px 5px 20px;
     background-color: #FF5959;
+    background-size: cover;
 }
 
 #email {
