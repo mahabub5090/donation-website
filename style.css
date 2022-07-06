@@ -21,7 +21,7 @@ body {
 
 }
 
-.upper {
+.header {
     text-align: center;
     color: white;
     background-image: url(donate-today-main/images/donation13.jpg);
@@ -31,7 +31,14 @@ body {
     height: 50vh;
     padding-bottom: 90px;
     margin-bottom: 50px;
-    text-justify: auto;
+
+}
+
+.upper {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .btn {
@@ -39,6 +46,7 @@ body {
     border-radius: 9px;
     text-decoration: none;
     background-color: #FF5959;
+    border: 3px solid #FF5959;
 }
 
 .donate-today {
