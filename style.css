@@ -33,7 +33,7 @@ h3 {
 }
 
 #headline {
-    font-size: 45px;
+    font-size: 50px;
 
 }
 
@@ -176,13 +176,30 @@ h3 {
     background-size: cover;
 }
 
+#bonus-card-id {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    box-shadow: 1px 1px 10px gray;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-image: linear-gradient(rgb(249, 191, 84), rgb(241, 128, 87), rgb(246, 201, 117));
+
+}
+
+#bonus-card-id img {
+    width: 100%;
+    height: 100%;
+}
 
 
 
-
-
-
-
+#bonus-card-text-id {
+    align-self: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 
 
@@ -215,6 +232,7 @@ h3 {
     padding: 10px 30px 10px 30px;
     background-color: #FF5959;
     background-size: cover;
+    margin-left: -5px;
 }
 
 #email {
@@ -222,6 +240,7 @@ h3 {
     border: 1px #FFFFFF;
     border-radius: 0%;
     padding: 10px 30px;
+    margin-right: -5px;
 }
 
 #box-in {
